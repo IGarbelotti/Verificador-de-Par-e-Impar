@@ -4,26 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificador de Gênero</title>
+    <title>Verificador Par e Ímpar</title>
     <link rel="stylesheet" href="style.css">
-    <script src="verificador.js" defer></script>
+    <script src="verificador.js"defer></script>
+  
 </head>
-<body id="body">
- <div>
-    <h1>Verificador de Gênero</h1>
-    <label for="m">Maculino</label>
-    <input type="radio" name="genero" id="m">   
+<body>
+    <div>
+        <h1>Verificador de Par e Ímpar</h1>
 
-    <label for="f">Feminino</label>
-    <input type="radio" name="genero" id="f">
+        <input type="text" id="n" placeholder="Digite um número"><br>
 
-    <label for="n">Prefiro não dizer</label>
-    <input type="radio" name="genero" id="n">
+        <button onclick="verificar()">Verificar</button>
 
-   <button onclick="verificar()">Verificar </button> 
-   <button onclick="reset()">Limpar</button>
-   
-   <p id="resultado"></p>
- </div>
+        <p id="resultado"></p>
+    </div>
 </body>
 </html>
